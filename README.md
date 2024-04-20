@@ -5,15 +5,15 @@
 <br>
 <br>
 
-## Webler Java Backend course final project 
+## <span style="color: #6698FF ">Webler Java Backend course final project 
 
 ---
 
-### <span style="color: #6698FF">We use server port: 8080</span>
+### We use server port: 8080</span>
 
 ---
 
-## Backend Dependencies
+### <span style="color: #6698FF ">Backend Dependencies
 
 - Java Development Kit - JDK 21 (Oracle openjdk-21)
 - Spring Boot 3
@@ -24,17 +24,17 @@
 - Spring DevTools
 - Lombok
 
-## Frontend Dependencies
+### <span style="color: #6698FF ">Frontend Dependencies
 
 - Spring Thymeleaf
 - Bootstrap 5
 
-## Database Dependencies
+### <span style="color: #6698FF ">Database Dependencies
 
 - MySQL 8.0.34
 - MySQL Workbench 8.0.34
 
-## Test Dependencies
+### <span style="color: #6698FF ">Test Dependencies
 
 - JUnit 5
 - Mockito
@@ -44,7 +44,7 @@
 
 ---
 
-### <span style="color: #6698FF">The program is creating the empty database with tables (also in the MySQL server) without running any extra script (due to the setup of application.properties & liquibase)</span>
+### <span style="color: #97ff65">The program is creating the empty database with tables (also in the MySQL server) without running any extra script (due to the setup of application.properties & liquibase)</span>
 <span style="color: #6698FF">For running the project pls. setup the following environment variables:</span>
 <br>
 
