@@ -10,6 +10,7 @@ import java.util.HashSet;
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter
+@Setter
 public class Team {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -17,7 +18,8 @@ public class Team {
 
     private String name;
     private String city;
+    private String coach;
 
-    @OneToMany(mappedBy = "team", cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "team")
     private Set<Player> players = new HashSet<>();
 }
