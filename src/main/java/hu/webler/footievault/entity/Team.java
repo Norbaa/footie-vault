@@ -20,6 +20,6 @@ public class Team {
     private String city;
     private String coach;
 
-    @OneToMany(mappedBy = "team")
+    @OneToMany(mappedBy = "team", fetch = FetchType.LAZY)
     private Set<Player> players = new HashSet<>();
 }
